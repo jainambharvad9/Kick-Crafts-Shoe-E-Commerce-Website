@@ -122,9 +122,8 @@ Push the branch:
 git push origin feature/YourFeature
 Open a Pull Request.
 
-💡 Author
-Your Name
-📧 Email: your-email@example.com
+💡 Author Jainam Saraiya
+📧 Email: jainamsaraiya9@gmail.com
 🌐 Portfolio: [your-portfolio-link]
 💼 LinkedIn: [https://www.linkedin.com/in/jainam-bharvad]
 
