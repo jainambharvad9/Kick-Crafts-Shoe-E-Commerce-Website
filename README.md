@@ -39,6 +39,7 @@ Follow these steps to set up the project locally:
 ### 1️⃣ Clone the Repository
 
 git clone https://github.com/your-username/kick-crafts.git
+
 2️⃣ Setup the Database
 Open phpMyAdmin.
 
@@ -49,7 +50,6 @@ Import the provided kickcrafts_db.sql file from the sql/ folder.
 3️⃣ Configure the Database Connection
 Open config/db.php and update with your MySQL credentials:
 
-php
 
 <?php
 $host = "localhost";
@@ -62,7 +62,9 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 ?>
+
 4️⃣ Configure Razorpay API
+
 Sign up at Razorpay.
 
 Generate API Key and Secret.
@@ -75,7 +77,9 @@ php
 define('RAZORPAY_KEY_ID', 'your_key_id');
 define('RAZORPAY_KEY_SECRET', 'your_key_secret');
 ?>
+
 5️⃣ Run the Project
+
 Move the project folder to htdocs (XAMPP) or www (WAMP).
 
 Start Apache and MySQL.
