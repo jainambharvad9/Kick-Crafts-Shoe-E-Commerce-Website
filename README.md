@@ -111,24 +111,13 @@ Reset password via token-based email system.
 This project is licensed for educational and personal use only.
 For commercial use, please contact the author.
 
-🤝 Contributing
-Fork the repository.
-
-Create a new branch:
-
-git checkout -b feature/YourFeature
-Commit your changes:
-
-
-git commit -m "Add YourFeature"
-Push the branch:
-
-git push origin feature/YourFeature
-Open a Pull Request.
 
 💡 Author Jainam Saraiya
+
 📧 Email: jainamsaraiya9@gmail.com
+
 🌐 Portfolio: [your-portfolio-link]
+
 💼 LinkedIn: [https://www.linkedin.com/in/jainam-bharvad]
 
 
