@@ -1,0 +1,61 @@
+Razorpay Payment Response: {
+    "razorpay_payment_id": "pay_PSYewBThmeEEsB",
+    "total_amount": "10"
+}
+Razorpay Payment Response: {
+    "razorpay_payment_id": "pay_PSYiXNAGdtt394",
+    "total_amount": "10"
+}
+Razorpay Payment Response: {
+    "razorpay_payment_id": "pay_PSYlgpOuAKHzOZ",
+    "total_amount": "10"
+}
+Error: Incomplete Razorpay payment details!
+Process started
+Received Razorpay payload: {"razorpay_payment_id":"pay_PSYvR72nmHr323","total_amount":"10"}
+Error: Incomplete Razorpay payment details
+Process started
+Received Razorpay payload: {"razorpay_payment_id":"pay_PSZfdT0CVz52yT","total_amount":"10"}
+Error: Incomplete Razorpay payment details
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PSZjvpVIJAPKlO"}
+Order successfully placed. Order ID: 14
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PSZsWUScOwaNLZ"}
+Order successfully placed. Order ID: 15
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PSa37UcdIh2i5R"}
+Order successfully placed. Order ID: 16
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PSaK0OcsebXIA1"}
+Order successfully placed. Order ID: 17
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PSaSH4Xq95FRAA"}
+Order successfully placed. Order ID: 18
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PSagNy2UgFKkcM"}
+Order successfully placed. Order ID: 19
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PSaxQWVVpe3VUN"}
+Order successfully placed. Order ID: 20
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PVjvuR5JRL8pa7"}
+Order successfully placed. Order ID: 22
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PVk4brUTvxv8Ay"}
+Order successfully placed. Order ID: 24
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PVk6Kyd7BfEh9h"}
+Order successfully placed. Order ID: 25
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PVkIAFoFAR0uS9"}
+Order successfully placed. Order ID: 26
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PVkMRx1lr7p3Wd"}
+Order successfully placed. Order ID: 27
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_PVkVcGa1Ffa10f"}
+Order successfully placed. Order ID: 28
+Starting process_checkout.php
+Received input: {"razorpay_payment_id":"pay_Qo6D0v8mHuVT6D"}
+Order successfully placed. Order ID: 31
