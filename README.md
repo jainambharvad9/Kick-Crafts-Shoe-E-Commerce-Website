@@ -36,18 +36,18 @@ Built with **PHP**, **MySQL**, and **Bootstrap**.
 
 Follow these steps to set up the project locally:
 
-### 1️⃣ Clone the Repository
+**1️⃣ Clone the Repository**
 
 git clone https://github.com/jainambharvad9/Kick-Crafts-Shoe-E-Commerce-Website.git
 
-2️⃣ Setup the Database
+**2️⃣ Setup the Database**
 Open phpMyAdmin.
 
 Create a new database named kickcrafts_db.
 
 Import the provided kickcrafts_db.sql file from the sql/ folder.
 
-3️⃣ Configure the Database Connection
+**3️⃣ Configure the Database Connection**
 Open config/db.php and update with your MySQL credentials:
 
 
@@ -70,7 +70,7 @@ if (!$conn) {
 <br>
 
 
-4️⃣ Configure Razorpay API
+**4️⃣ Configure Razorpay API**
 
 Sign up at Razorpay.
 <br>
@@ -87,7 +87,7 @@ define('RAZORPAY_KEY_SECRET', 'your_key_secret');
 <br>
 
 
-5️⃣ Run the Project
+**5️⃣ Run the Project**
 
 Move the project folder to htdocs (XAMPP) or www (WAMP).
 <br>
@@ -100,7 +100,7 @@ http://localhost/kick-crafts
 
 👥 User Roles
 
-Admin
+**Admin**
 
 Manage products, categories, and orders.
 <br>
@@ -109,7 +109,7 @@ View and update user details.
 Track sales and payment history.
 <br>
 
-User
+**User**
 
 Browse products, search, and filter.
 <br>
@@ -118,15 +118,14 @@ Add to cart and checkout with Razorpay.
 Reset password via token-based email system.
 
 
-📜 License
+**📜 License**
 <br>
 This project is licensed for educational and personal use only.
 For commercial use, please contact the author.
 
 
-💡 Author Jainam Saraiya
+💡 **Author** Jainam Saraiya
 <br>
-📧 Email: jainamsaraiya9@gmail.com
+📧 **Email**: jainamsaraiya9@gmail.com
 <br>
-<br>
-💼 LinkedIn: [https://www.linkedin.com/in/jainam-bharvad]
+💼 **LinkedIn**: [https://www.linkedin.com/in/jainam-bharvad]
