@@ -38,7 +38,7 @@ Follow these steps to set up the project locally:
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/kick-crafts.git
+git clone https://github.com/jainambharvad9/Kick-Crafts-Shoe-E-Commerce-Website.git
 
 2️⃣ Setup the Database
 Open phpMyAdmin.
@@ -51,76 +51,82 @@ Import the provided kickcrafts_db.sql file from the sql/ folder.
 Open config/db.php and update with your MySQL credentials:
 
 
-<?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "kickcrafts_db";
 
+$host = "localhost";
+<br>
+$user = "root";
+<br>
+$pass = "";
+<br>
+$dbname = "kickcrafts_db";
+<br>
 $conn = mysqli_connect($host, $user, $pass, $dbname);
+<br>
 if (!$conn) {
+<br>
     die("Connection failed: " . mysqli_connect_error());
+<br>
 }
-?>
+<br>
+
 
 4️⃣ Configure Razorpay API
 
 Sign up at Razorpay.
-
+<br>
 Generate API Key and Secret.
-
+<br>
 Add them in config/razorpay.php:
 
-php
 
-<?php
+
 define('RAZORPAY_KEY_ID', 'your_key_id');
+<br>
 define('RAZORPAY_KEY_SECRET', 'your_key_secret');
-?>
+<br>
+<br>
+
 
 5️⃣ Run the Project
 
 Move the project folder to htdocs (XAMPP) or www (WAMP).
-
+<br>
 Start Apache and MySQL.
-
+<br>
 Open in browser:
 
-arduino
-
 http://localhost/kick-crafts
+
+
 👥 User Roles
+
 Admin
+
 Manage products, categories, and orders.
-
+<br>
 View and update user details.
-
+<br>
 Track sales and payment history.
+<br>
 
 User
+
 Browse products, search, and filter.
-
+<br>
 Add to cart and checkout with Razorpay.
-
+<br>
 Reset password via token-based email system.
 
 
-
-
 📜 License
+<br>
 This project is licensed for educational and personal use only.
 For commercial use, please contact the author.
 
 
 💡 Author Jainam Saraiya
-
+<br>
 📧 Email: jainamsaraiya9@gmail.com
-
-🌐 Portfolio: [your-portfolio-link]
-
+<br>
+<br>
 💼 LinkedIn: [https://www.linkedin.com/in/jainam-bharvad]
-
-
-If you want, I can now create **a second matching README.md for your SonicSonicTunes Laravel Music Player project** so your GitHub portfolio looks uniform and professional across all projects. That will make it look like a complete collection.
-
-
